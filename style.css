@@ -74,9 +74,7 @@ nav ul li {
         background: linear-gradient(to left, var(--lime-Green), var(--bright-Cyan));
 }
 
-.container {
 
-}
 
 .header-wrap {
     display: flex;
@@ -129,4 +127,40 @@ nav ul li {
     margin-bottom: 30px;
     line-height: 1.35;
     color: var(--grayish-Blue);
+}
+
+section.features-section {
+    background: var(--light-Grayish-Blue);
+    padding: 100px 0;
+}
+
+section.features-section h1 {
+    margin-bottom: 20px;
+}
+
+section.features-section p {
+    margin-bottom: 55px;
+    color: var(--grayish-Blue)
+}
+
+section.features-section .cards {
+    display: flex;
+    /* gap: 100px; */
+}
+
+section.features-section .cards> * + * {
+  margin-left: 30px;
+}
+
+.cards .card img {
+   margin-bottom: 30px;
+}
+
+.cards .card h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.cards .card p {
+  font-size: 16px;
 }
