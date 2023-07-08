@@ -164,3 +164,34 @@ section.features-section .cards> * + * {
 .cards .card p {
   font-size: 16px;
 }
+
+section.article-section {
+    padding: 100px 0;
+}
+
+.article-wrapper {
+    display: flex;
+}
+
+section.article-section h1 {
+    margin-bottom: 30px;
+}
+
+.article-wrapper > * + * {
+    margin-left: 30px;
+}
+
+.article-wrapper img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+}
+
+.article-wrapper .content {
+    padding: 20px;
+    background: var(--white);
+}
+
+.article-wrapper .content a {
+    padding: 10px 0;
+}
