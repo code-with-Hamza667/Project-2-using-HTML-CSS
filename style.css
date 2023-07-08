@@ -35,7 +35,8 @@ nav {
 
 nav ul {
     display: flex;
-    list-style: none;
+    list-style-type: none;
+    align-items: center;
 }
 
 nav ul li a{
@@ -67,4 +68,30 @@ nav ul li {
 
 .btn:hover {
         background: linear-gradient(to left, var(--lime-Green), var(--bright-Cyan));
+}
+
+.container {
+
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header-section {
+    background: var(--light-Gray);
+}
+
+.header-text {
+    flex: 1 0 40%;
+}
+
+.header-images {
+    flex: 1 0 60%;
+    position: relative;
+}
+
+.header-images img:first-child {
+    transform: scale(1.5);
 }
