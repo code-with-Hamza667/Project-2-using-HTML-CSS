@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: 'Public Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.container {
+    width: 1120px;
+    margin: 0 auto;
+    max-width: 90%;
+    
+}
