@@ -21,6 +21,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     -webkit-font-smoothing: antialiased;
 }
 
+body {
+    overflow: hidden;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -78,6 +82,7 @@ nav ul li {
     display: flex;
     align-items: center;
     position: relative;
+    padding-bottom: 40px;
 }
 
 .header-section {
@@ -99,8 +104,12 @@ nav ul li {
     top: -50px;
     bottom: 0;
     right: -200px;
-
-
+}
+.header-images img:last-child {
+    transform: scale(1.1);
+    position: absolute;
+    top: -160px;
+    right: -190px;
 }
 
 .nav-section {
@@ -108,3 +117,4 @@ nav ul li {
     z-index: 1;
     background: var(--white);
 }
+
